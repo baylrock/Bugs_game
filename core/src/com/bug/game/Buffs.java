@@ -62,7 +62,7 @@ public void draw(Batch batch, float alpha) {
             bug.setPower(damage +5);
         }
 
-        if(this.Buffs == "speed"){
+        if(this.Buffs == "range"){
             bug.CruisingRange+=3;
         }
     }
