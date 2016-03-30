@@ -33,7 +33,9 @@ public class World {
     String minSideCell;
     float w = graphics.getWidth();
     float h = graphics.getHeight();
+
     public Sound StepSound = Gdx.audio.newSound(Gdx.files.internal("sounds/Steps_bug.wav"));
+
 
     World() {
         // SetWorldBounds(); // Установка размера игрового поля. Зависимость от размеров экрана.

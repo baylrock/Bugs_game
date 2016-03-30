@@ -10,6 +10,7 @@ import java.util.ArrayList;
  * Created by Lego on 30.05.2015.
  */
 public class BLabel extends Actor {
+
     ArrayList<Sprite> LabelSprites = new ArrayList<Sprite>();
 
     BLabel (String String) {

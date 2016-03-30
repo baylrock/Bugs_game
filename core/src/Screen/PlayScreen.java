@@ -126,8 +126,10 @@ public class PlayScreen implements Screen {
 
     @Override
     public void show() {
+
         long soundId = sound_BG.loop();
         sound_BG.setVolume(soundId,((float) (0.2)));
+
         for (final Buffs buff : game.world.Buff) {
             group_buff.addActor(buff);
         }
